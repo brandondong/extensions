@@ -1,0 +1,29 @@
+.tw-c-text-overlay > .tw-relative > .tw-absolute > .tw-left-0.tw-top-0 {
+  /* Hide the length on video thumbnails. */
+  visibility: hidden;
+}
+
+.tw-c-text-overlay > .tw-relative > .tw-absolute > .tw-bottom-0.tw-full-width {
+  /* Hide the watched bar on video thumbnails. */
+  visibility: hidden;
+}
+
+.preview-card-thumbnail__image {
+  /* Hide the video thumbnail backgrounds. */
+  visibility: hidden;
+}
+
+.home-video {
+  /* Hide the latest stream banner image. */
+  visibility: hidden;
+}
+
+.vod-seekbar-time-labels {
+  /* Hide the seekbar time. */
+  visibility: hidden;
+}
+
+.seekbar-interaction-area {
+  /* Hide the seekbar slider. */
+  visibility: hidden;
+}

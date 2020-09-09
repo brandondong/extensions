@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "No Spoilers",
+  "version": "0.1",
+  "description": "Hides possible Twitch VOD spoilers.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.twitch.tv/*"
+      ],
+      "css": [
+        "twitch.css"
+      ]
+    }
+  ]
+}
