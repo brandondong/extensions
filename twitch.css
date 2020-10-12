@@ -13,8 +13,13 @@
   visibility: hidden;
 }
 
-.home-video {
+.persistent-player[style~="533px;"] {
   /* Hide the latest stream banner image. */
+  visibility: hidden;
+}
+
+.persistent-player[style~="90vh;"] {
+  /* Hide the video page's current stream background. */
   visibility: hidden;
 }
 
