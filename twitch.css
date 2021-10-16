@@ -1,9 +1,9 @@
-.tw-c-text-overlay > .tw-relative > .tw-absolute > .tw-left-0.tw-top-0 {
+.tw-media-card-image__corners > *:first-child {
   /* Hide the length on video thumbnails. */
   visibility: hidden;
 }
 
-.tw-c-text-overlay > .tw-relative > .tw-absolute > .tw-bottom-0.tw-full-width {
+.tw-media-card-image__cover > *:first-child {
   /* Hide the watched bar on video thumbnails. */
   visibility: hidden;
 }
