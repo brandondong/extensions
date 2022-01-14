@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "No Spoilers",
   "version": "0.1",
-  "description": "Hides possible Twitch VOD spoilers.",
+  "description": "Hides possible spoilers.",
   "content_scripts": [
     {
       "matches": [
@@ -10,6 +10,14 @@
       ],
       "css": [
         "twitch.css"
+      ]
+    },
+	{
+      "matches": [
+        "https://*.youtube.com/*"
+      ],
+      "css": [
+        "youtube.css"
       ]
     }
   ]

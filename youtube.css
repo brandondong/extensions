@@ -1,0 +1,11 @@
+ytd-thumbnail-overlay-time-status-renderer {
+  visibility: hidden !important;
+}
+
+.ytp-time-display {
+  visibility: hidden !important;
+}
+
+.ytp-progress-bar {
+  visibility: hidden !important;
+}
