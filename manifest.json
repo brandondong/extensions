@@ -14,7 +14,8 @@
     },
     {
       "matches": [
-        "https://*.youtube.com/*"
+        "https://*.youtube.com/*",
+        "https://*.youtube-nocookie.com/*"
       ],
       "all_frames": true,
       "css": [
