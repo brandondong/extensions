@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Remove Youtube Shorts Player",
+  "version": "0.1",
+  "description": "Forces Youtube Shorts to be opened in the normal video player.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.youtube.com/*"
+      ],
+      "all_frames": true,
+      "js": [
+        "youtube.js"
+      ]
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://*.youtube.com/*"
+  ]
+}

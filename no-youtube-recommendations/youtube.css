@@ -1,0 +1,17 @@
+/* Hide post video title card. */
+.ytp-ce-element {
+  visibility: hidden !important;
+}
+
+.ytp-suggestion-set {
+  visibility: hidden !important;
+}
+
+.ytp-pause-overlay {
+  visibility: hidden !important;
+}
+
+/* Hide right sidebar video suggestions. */
+ytd-watch-next-secondary-results-renderer {
+  visibility: hidden !important;
+}
