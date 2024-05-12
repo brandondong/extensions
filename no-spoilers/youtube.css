@@ -9,3 +9,7 @@ ytd-thumbnail-overlay-time-status-renderer {
 .ytp-progress-bar {
   visibility: hidden !important;
 }
+
+.YtInlinePlayerControlsTimeDisplay {
+  visibility: hidden !important;
+}
