@@ -1,0 +1,88 @@
+{
+  "manifest_version": 3,
+  "name": "CSS Override",
+  "version": "0.1",
+  "description": "Static CSS overrides.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://danluu.com/*"
+      ],
+      "css": [
+        "reset.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://cliffle.com/*"
+      ],
+      "css": [
+        "cliffle.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://without.boats/*"
+      ],
+      "css": [
+        "withoutboats.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://borretti.me/*"
+      ],
+      "css": [
+        "borretti.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.nytimes.com/games/wordle/index.html"
+      ],
+      "css": [
+        "wordle.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://sabrinajewson.org/*"
+      ],
+      "css": [
+        "sabrinajewson.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://vpl.overdrive.com/*"
+      ],
+      "css": [
+        "vpl.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://sudokupad.app/*"
+      ],
+      "css": [
+        "sudokupad.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://mattrighetti.com/*"
+      ],
+      "css": [
+        "mattrighetti.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://thume.ca/*"
+      ],
+      "css": [
+        "thume.css"
+      ]
+    }
+  ]
+}
