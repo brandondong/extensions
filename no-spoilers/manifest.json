@@ -21,6 +21,14 @@
       "css": [
         "youtube.css"
       ]
+    },
+    {
+      "matches": [
+        "https://*.reddit.com/r/leagueoflegends/"
+      ],
+      "css": [
+        "reddit.css"
+      ]
     }
   ]
 }
