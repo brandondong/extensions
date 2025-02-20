@@ -13,3 +13,8 @@ ytd-thumbnail-overlay-time-status-renderer {
 .YtInlinePlayerControlsTimeDisplay {
   visibility: hidden !important;
 }
+
+yt-image {
+  /* Blur thumbnails. */
+  filter: blur(8px);
+}
