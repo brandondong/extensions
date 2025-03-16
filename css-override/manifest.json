@@ -83,6 +83,22 @@
       "css": [
         "thume.css"
       ]
+    },
+    {
+      "matches": [
+        "https://lore.kernel.org/*"
+      ],
+      "css": [
+        "kernel_mailing.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://herecomesthemoon.net/*"
+      ],
+      "css": [
+        "herecomesthemoon.css"
+      ]
     }
   ]
 }
