@@ -99,6 +99,14 @@
       "css": [
         "herecomesthemoon.css"
       ]
+    },
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "css": [
+        "youtube.css"
+      ]
     }
   ]
 }
