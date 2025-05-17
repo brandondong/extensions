@@ -107,6 +107,22 @@
       "css": [
         "youtube.css"
       ]
+    },
+    {
+      "matches": [
+        "https://steveklabnik.com/*"
+      ],
+      "css": [
+        "steveklabnik.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://xn--gckvb8fzb.com/*"
+      ],
+      "css": [
+        "xn.css"
+      ]
     }
   ]
 }
