@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Shortcut Override",
+  "version": "0.1",
+  "description": "Disables websites from overriding certain shortcuts.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*"
+      ],
+      "all_frames": true,
+      "js": [
+        "shortcuts.js"
+      ]
+    }
+  ]
+}
