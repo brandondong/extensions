@@ -1,14 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "Remove Youtube Shorts Player",
+  "name": "Distraction-free Youtube",
   "version": "0.1",
-  "description": "Forces Youtube Shorts to be opened in the normal video player.",
+  "description": "Hides recommendations, opens Shorts in the normal video player, and other goodies.",
   "content_scripts": [
     {
       "matches": [
-        "https://*.youtube.com/*"
+        "https://*.youtube.com/*",
+        "https://*.youtube-nocookie.com/*"
       ],
       "all_frames": true,
+      "css": [
+        "youtube.css"
+      ],
       "js": [
         "youtube.js"
       ]
@@ -27,6 +31,7 @@
     "declarativeNetRequest"
   ],
   "host_permissions": [
-    "https://*.youtube.com/*"
+    "https://*.youtube.com/*",
+    "https://*.youtube-nocookie.com/*"
   ]
 }
