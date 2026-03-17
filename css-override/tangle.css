@@ -1,0 +1,7 @@
+body {
+  overflow: auto !important;
+}
+
+.outpost-popup {
+  display: none !important;
+}

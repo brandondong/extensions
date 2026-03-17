@@ -123,6 +123,22 @@
       "css": [
         "xn.css"
       ]
+    },
+    {
+      "matches": [
+        "https://paulgraham.com/*"
+      ],
+      "css": [
+        "paulgraham.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.readtangle.com/*"
+      ],
+      "css": [
+        "tangle.css"
+      ]
     }
   ]
 }
