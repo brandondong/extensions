@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "condition": {
+      "regexFilter": "x\\.com/(.*)",
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame"
+      ]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "xcancel.com/\\1"
+      }
+    }
+  }
+]
