@@ -14,7 +14,8 @@ ytd-thumbnail-overlay-time-status-renderer {
   visibility: hidden !important;
 }
 
-yt-image {
+yt-image,
+yt-thumbnail-view-model {
   /* Blur thumbnails. */
   filter: blur(8px);
 }
