@@ -13,3 +13,10 @@ document.addEventListener("click", e => {
     node = node.parentNode;
   }
 }, true);
+
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") {
+    // Prevent exiting theater mode.
+    e.stopImmediatePropagation();
+  }
+}, true);
