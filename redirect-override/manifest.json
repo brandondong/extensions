@@ -16,6 +16,7 @@
     "declarativeNetRequest"
   ],
   "host_permissions": [
-    "https://*.x.com/*"
+    "https://*.x.com/*",
+    "https://*.twitter.com/*"
   ]
 }

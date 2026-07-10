@@ -139,6 +139,22 @@
       "css": [
         "tangle.css"
       ]
+    },
+    {
+      "matches": [
+        "https://andrewkelley.me/post/*"
+      ],
+      "css": [
+        "andrewkelley.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://sequencediagrams.azurewebsites.net/*"
+      ],
+      "css": [
+        "sequencediagrams.css"
+      ]
     }
   ]
 }

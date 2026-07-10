@@ -1,3 +1,11 @@
 .puzzle-rules {
   overflow-y: auto !important;
 }
+
+.dialog {
+  user-select: text;
+}
+
+.dialog * {
+  user-select: auto;
+}
