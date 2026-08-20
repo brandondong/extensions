@@ -6,6 +6,25 @@
   "content_scripts": [
     {
       "matches": [
+        "https://*/*"
+      ],
+      "css": [
+        "disable-custom-scrollbar.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://ki-editor.org/*"
+      ],
+      "css": [
+        "disable-custom-scrollbar.css"
+      ],
+      "js": [
+        "disable-custom-scrollbar.js"
+      ]
+    },
+    {
+      "matches": [
         "https://danluu.com/*"
       ],
       "css": [
