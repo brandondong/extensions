@@ -13,5 +13,5 @@
 
 /* Hide right sidebar video suggestions. */
 ytd-watch-next-secondary-results-renderer {
-  visibility: hidden !important;
+  display: none !important;
 }
