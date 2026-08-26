@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Shortcut Override",
+  "name": "Shortcut overrides",
   "version": "0.1",
   "description": "Disables websites from overriding certain shortcuts.",
   "content_scripts": [

@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "No Spoilers",
+  "name": "No spoilers",
   "version": "0.1",
   "description": "Hides possible spoilers.",
   "content_scripts": [

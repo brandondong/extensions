@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "CSS Override",
+  "name": "CSS overrides",
   "version": "0.1",
   "description": "Static CSS overrides.",
   "content_scripts": [
