@@ -3,7 +3,7 @@
     "id": 1,
     "priority": 1,
     "condition": {
-      "regexFilter": "(x\\.com|twitter\\.com)/(.*)",
+      "regexFilter": "https://(.*\\.)?(x\\.com|twitter\\.com)/(.*)",
       "resourceTypes": [
         "main_frame",
         "sub_frame"
@@ -12,7 +12,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "regexSubstitution": "xcancel.com/\\2"
+        "regexSubstitution": "https://xcancel.com/\\3"
       }
     }
   }
