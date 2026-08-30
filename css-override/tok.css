@@ -1,0 +1,7 @@
+#grid-wrapper {
+    display: block !important;
+}
+
+article {
+    margin-inline: auto !important;
+}

@@ -1,0 +1,19 @@
+footer {
+    display: none !important;
+}
+
+a[href*="nytimes.com/subscription"] {
+    display: none !important;
+}
+
+[class*="Skip-module_fadeInContainer"] {
+    animation: none !important;
+}
+
+.pz-game-title-bar {
+    display: none !important;
+}
+
+#js-global-nav {
+    display: none !important;
+}

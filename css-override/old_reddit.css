@@ -1,0 +1,4 @@
+/* Need to bump up the specificity. */
+body:not(div) {
+    cursor: initial !important;
+}

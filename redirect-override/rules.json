@@ -15,5 +15,22 @@
         "regexSubstitution": "https://xcancel.com/\\3"
       }
     }
+  },
+  {
+    "id": 2,
+    "priority": 2,
+    "condition": {
+      "regexFilter": "substack\\.com/@([^\\/]*)(/notes)?$",
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame"
+      ]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "substack.com/@\\1/posts"
+      }
+    }
   }
 ]
