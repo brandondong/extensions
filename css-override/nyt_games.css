@@ -1,0 +1,11 @@
+footer {
+    display: none !important;
+}
+
+a[href*="nytimes.com/subscription"] {
+    display: none !important;
+}
+
+[class*="Skip-module_fadeInContainer"] {
+    animation: none !important;
+}

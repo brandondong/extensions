@@ -14,7 +14,8 @@
     },
     {
       "matches": [
-        "https://ki-editor.org/*"
+        "https://ki-editor.org/*",
+        "https://spacetimedb.com/*"
       ],
       "css": [
         "disable-custom-scrollbar.css"
@@ -173,6 +174,22 @@
       ],
       "css": [
         "sequencediagrams.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.nytimes.com/games/*"
+      ],
+      "css": [
+        "nyt_games.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://wiki.toki.la/*"
+      ],
+      "css": [
+        "tok.css"
       ]
     }
   ]
