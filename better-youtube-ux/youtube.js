@@ -15,8 +15,12 @@ document.addEventListener("click", e => {
 }, true);
 
 document.addEventListener("keydown", e => {
-  if (e.key === "Escape") {
+  const k = e.key;
+  if (k === "Escape") {
     // Prevent exiting theater mode.
+    e.stopImmediatePropagation();
+  } else if (k !== "0" && !isNaN(parseInt(k))) {
+    // Don't navigate to random points of the video accidentally.
     e.stopImmediatePropagation();
   }
 }, true);
