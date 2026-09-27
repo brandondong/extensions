@@ -1,0 +1,18 @@
+/* Need to bump up the specificity. */
+body:not(div) {
+    cursor: initial !important;
+}
+
+/* Disable broken video + content pinning. */
+div.pinnable-content.pinned {
+    position: initial !important;
+    height: initial !important
+}
+
+div.pinnable-content.pinned * {
+    position: initial !important;
+}
+
+.pinnable-placeholder {
+    height: initial !important;
+}
