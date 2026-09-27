@@ -202,10 +202,34 @@
     },
     {
       "matches": [
-        "https://old.reddit.com/*"
+        "https://*.reddit.com/*"
       ],
       "css": [
-        "old_reddit.css"
+        "reddit.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://*.wordpress.com/*"
+      ],
+      "css": [
+        "wordpress.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://firstcycling.com/*"
+      ],
+      "css": [
+        "firstcycling.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://*.bearblog.dev/*"
+      ],
+      "css": [
+        "bearblog.css"
       ]
     }
   ]
